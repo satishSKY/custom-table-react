@@ -1,5 +1,10 @@
 export const data = {
-  heading: ["ID", "NAME", "Mobile", "EMAIL"],
+  heading: [
+    { title: "ID", type: "number", fieldName: "id" },
+    { title: "NAME", type: "string", fieldName: "name" },
+    { title: "Mobile", type: "number", fieldName: "mobile" },
+    { title: "EMAIL", type: "string", fieldName: "email" }
+  ],
   employees: [
     {
       id: 1,
